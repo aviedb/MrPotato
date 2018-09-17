@@ -27,6 +27,6 @@
 
     <include layout="@layout/mr_potato_full"/>
 
-
+    <include layout="@layout/mr_potato_chips"/>
 
 </FrameLayout>

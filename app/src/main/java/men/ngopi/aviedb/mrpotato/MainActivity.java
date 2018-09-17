@@ -12,8 +12,26 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        TextView mr_potato = findViewById(R.id.mr_potato);
+        // Declaring Google Sans font
         Typeface typeface = Typeface.createFromAsset(getAssets(), "fonts/google_sans.ttf");
+
+        // Change mr_potato font
+        TextView mr_potato = findViewById(R.id.mr_potato);
         mr_potato.setTypeface(typeface);
+
+        // Change chips font
+        android.support.design.chip.Chip hat_chip = findViewById(R.id.hat_chip);
+        android.support.design.chip.Chip eyebrows_chip = findViewById(R.id.eyebrows_chip);
+        android.support.design.chip.Chip nose_chip = findViewById(R.id.nose_chip);
+        android.support.design.chip.Chip mustache_chip = findViewById(R.id.mustache_chip);
+        android.support.design.chip.Chip arms_chip = findViewById(R.id.arms_chip);
+        android.support.design.chip.Chip eyes_chip = findViewById(R.id.eyes_chip);
+
+        hat_chip.setTypeface(typeface);
+        eyebrows_chip.setTypeface(typeface);
+        nose_chip.setTypeface(typeface);
+        mustache_chip.setTypeface(typeface);
+        arms_chip.setTypeface(typeface);
+        eyes_chip.setTypeface(typeface);
     }
 }
