@@ -7,6 +7,12 @@
     android:orientation="vertical"
     android:layout_marginBottom="30dp">
 
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
     <TextView
         android:id="@+id/placeholder"
         android:layout_width="wrap_content"
@@ -15,6 +21,7 @@
         android:textSize="20sp"
         android:textColor="@color/black"
         android:gravity="center"
+        android:layout_marginTop="20dp"
         android:layout_marginBottom="15dp"/>
 
     <LinearLayout
@@ -26,38 +33,30 @@
 
         <android.support.design.chip.Chip
             android:id="@+id/hat_chip"
-            style="@style/Widget.MaterialComponents.Chip.Filter"
+            style="@style/CustomChipFilter"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="2.5dp"
-            android:checked="true"
             android:text="@string/hat" />
 
         <android.support.design.chip.Chip
             android:id="@+id/nose_chip"
-            style="@style/Widget.MaterialComponents.Chip.Filter"
+            style="@style/CustomChipFilter"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="2.5dp"
-            android:checked="true"
             android:text="@string/nose" />
 
         <android.support.design.chip.Chip
             android:id="@+id/arms_chip"
-            style="@style/Widget.MaterialComponents.Chip.Filter"
+            style="@style/CustomChipFilter"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="2.5dp"
-            android:checked="true"
             android:text="@string/arms" />
 
         <android.support.design.chip.Chip
             android:id="@+id/eyes_chip"
-            style="@style/Widget.MaterialComponents.Chip.Filter"
+            style="@style/CustomChipFilter"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="2.5dp"
-            android:checked="true"
             android:text="@string/eyes" />
 
     </LinearLayout>
@@ -71,29 +70,23 @@
 
         <android.support.design.chip.Chip
             android:id="@+id/glasses_chip"
-            style="@style/Widget.MaterialComponents.Chip.Filter"
+            style="@style/CustomChipFilter"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="2.5dp"
-            android:checked="true"
             android:text="@string/glasses" />
 
         <android.support.design.chip.Chip
             android:id="@+id/eyebrows_chip"
-            style="@style/Widget.MaterialComponents.Chip.Filter"
+            style="@style/CustomChipFilter"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="2.5dp"
-            android:checked="true"
             android:text="@string/eyebrows" />
 
         <android.support.design.chip.Chip
             android:id="@+id/ears_chip"
-            style="@style/Widget.MaterialComponents.Chip.Filter"
+            style="@style/CustomChipFilter"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="2.5dp"
-            android:checked="true"
             android:text="@string/ears" />
 
     </LinearLayout>
@@ -107,29 +100,23 @@
 
         <android.support.design.chip.Chip
             android:id="@+id/mouth_chip"
-            style="@style/Widget.MaterialComponents.Chip.Filter"
+            style="@style/CustomChipFilter"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="2.5dp"
-            android:checked="true"
             android:text="@string/mouth" />
 
         <android.support.design.chip.Chip
             android:id="@+id/mustache_chip"
-            style="@style/Widget.MaterialComponents.Chip.Filter"
+            style="@style/CustomChipFilter"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="2.5dp"
-            android:checked="true"
             android:text="@string/mustache" />
 
         <android.support.design.chip.Chip
             android:id="@+id/shoes_chip"
-            style="@style/Widget.MaterialComponents.Chip.Filter"
+            style="@style/CustomChipFilter"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="2.5dp"
-            android:checked="true"
             android:text="@string/shoes" />
 
     </LinearLayout>
