@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Declaring Google Sans font
         Typeface typeface = Typeface.createFromAsset(getAssets(), "fonts/google_sans.ttf");
+        Typeface typefaceMed = Typeface.createFromAsset(getAssets(), "fonts/google_sans_medium.ttf");
 
         // Change mr_potato font
         TextView mr_potato = findViewById(R.id.mr_potato);
@@ -25,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Changing placeholder font
         TextView placeholder = findViewById(R.id.placeholder);
-        placeholder.setTypeface(typeface);
+        placeholder.setTypeface(typefaceMed);
 
         // Toggle hat visibility
         Chip hat_chip = findViewById(R.id.hat_chip);
