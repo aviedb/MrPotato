@@ -5,10 +5,10 @@
     <color name="colorAccent">#3080F9</color>
     <color name="dark">#646464</color>
     <color name="black">#000000</color>
-    <color name="chip_text_unchecked">#7B1EFB</color>
-    <color name="chip_text_checked">#6202EE</color>
+    <color name="chip_text_unchecked">#5F6369</color>
+    <color name="chip_text_checked">#4185F4</color>
     <color name="chip_background_unchecked">#FFFFFF</color>
-    <color name="chip_background_checked">#DBC6FC</color>
-    <color name="chip_border_unchecked">#CBAEF9</color>
-    <color name="chip_border_checked">#DBC5FB</color>
+    <color name="chip_background_checked">#E8F0FE</color>
+    <color name="chip_border_unchecked">#E8F0FE</color>
+    <color name="chip_border_checked">#E8F0FE</color>
 </resources>
