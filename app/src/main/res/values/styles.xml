@@ -18,6 +18,7 @@
         <item name="android:checked">true</item>
         <item name="checkedIcon">@drawable/ic_check_24dp</item>
         <item name="android:textSize">20sp</item>
+        <item name="rippleColor">@color/ripple_color</item>
     </style>
 
 </resources>

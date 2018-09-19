@@ -11,4 +11,5 @@
     <color name="chip_background_checked">#E8F0FE</color>
     <color name="chip_border_unchecked">#E8F0FE</color>
     <color name="chip_border_checked">#E8F0FE</color>
+    <color name="ripple_color">#4185F4</color>
 </resources>
