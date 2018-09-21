@@ -12,5 +12,6 @@
     <string name="mouth">Mouth</string>
     <string name="shoes">Shoes</string>
     <string name="placeholder">What to show:</string>
-    <string name="author">Avied Bachmid</string>
+    <string name="author">Bachmid</string>
+    <string name="body">Body</string>
 </resources>
